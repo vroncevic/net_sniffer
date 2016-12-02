@@ -8,4 +8,4 @@
 # 
 
 SNIFFER_INTERFACE=eth0
-SNIFFER_LOG="/opt/net_traffic"
+SNIFFER_LOG="/data/net_traffic"
