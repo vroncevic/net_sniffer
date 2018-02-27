@@ -7,7 +7,7 @@
 # @author  Vladimir Roncevic <vladimir.roncevic@frobas.com>
 #
 
-. netparams.sh
+. net_params.sh
 
 SNIFFER_DATE=`date +%Y_%m_%d_%H_%M_%S`
 SNIFFER_FILE="${SNIFFER_LOG}/network_date_${SNIFFER_DATE}.ndmp"
