@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # @brief   Sniffering IP address
-# @version ver.1.0
+# @version ver.1.0.0
 # @date    Mon Aug  1 18:52:04 CEST 2016
 # @company Frobas IT Department, www.frobas.com 2016
 # @author  Vladimir Roncevic <vladimir.roncevic@frobas.com>
