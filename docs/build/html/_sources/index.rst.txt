@@ -6,10 +6,9 @@ NET_SNIFFER
 
  self
 
+**net_sniffer** is shell tool for controlling/operating net sniffer.
 
-net_sniffer is shell tool for control/operating net sniffer.
-
-Developed in bash code: 100%.
+Developed in `bash <https://en.wikipedia.org/wiki/Bash_(Unix_shell)>`_ code: **100%**.
 
 The README is used to introduce the tool and provide instructions on
 how to install the tool, any machine dependencies it may have and any
@@ -28,11 +27,12 @@ other information that should be provided before the tool is installed.
 
 INSTALLATION
 -------------
+
 Navigate to release `page`_ download and extract release archive.
 
 .. _page: https://github.com/vroncevic/net_sniffer/releases
 
-To install this set of modules type the following:
+To install **net_sniffer** type the following:
 
 .. code-block:: bash
 
@@ -44,17 +44,16 @@ To install this set of modules type the following:
 
 DEPENDENCIES
 -------------
-This tool requires these other modules and libraries:
 
-.. code-block:: bash
-
-   sh_util https://github.com/vroncevic/sh_util
+**net_sniffer** requires next modules and libraries:
+    None
 
 SHELL TOOL STRUCTURE
 ---------------------
-net_sniffer is based on MOP.
 
-Shell tool structure:
+**net_sniffer** is based on MOP.
+
+Code structure:
 
 .. code-block:: bash
 
@@ -79,7 +78,7 @@ COPYRIGHT AND LICENCE
 .. |License: Apache 2.0| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
    :target: https://opensource.org/licenses/Apache-2.0
 
-Copyright (C) 2018 by https://vroncevic.github.io/net_sniffer
+Copyright (C) 2016 by `vroncevic.github.io/net_sniffer <https://vroncevic.github.io/net_sniffer>`_
 
 This tool is free software; you can redistribute it and/or modify it
 under the same terms as Bash itself, either Bash version 4.2.47 or,
