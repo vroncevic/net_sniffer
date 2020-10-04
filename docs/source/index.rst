@@ -1,14 +1,14 @@
-NET_SNIFFER
+net_sniffer
 ------------
-
-.. toctree::
- :hidden:
-
- self
 
 **net_sniffer** is shell tool for controlling/operating net sniffer.
 
 Developed in `bash <https://en.wikipedia.org/wiki/Bash_(Unix_shell)>`_ code: **100%**.
+
+|GitHub shell checker|
+
+.. |GitHub shell checker| image:: https://github.com/vroncevic/net_sniffer/workflows/net_sniffer%20shell%20checker/badge.svg
+   :target: https://github.com/vroncevic/net_sniffer/actions?query=workflow%3A%22net_sniffer+shell+checker%22
 
 The README is used to introduce the tool and provide instructions on
 how to install the tool, any machine dependencies it may have and any
@@ -25,7 +25,12 @@ other information that should be provided before the tool is installed.
 .. |Documentation Status| image:: https://readthedocs.org/projects/net_sniffer/badge/?version=latest
    :target: https://net_sniffer.readthedocs.io/projects/net_sniffer/en/latest/?badge=latest
 
-INSTALLATION
+.. toctree::
+    :hidden:
+
+    self
+
+Installation
 -------------
 
 Navigate to release `page`_ download and extract release archive.
@@ -42,13 +47,20 @@ To install **net_sniffer** type the following:
    cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.1.0/
    cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.1.0/
 
-DEPENDENCIES
+Or You can use Docker to create image/container.
+
+|GitHub docker checker|
+
+.. |GitHub docker checker| image:: https://github.com/vroncevic/net_sniffer/workflows/net_sniffer%20docker%20checker/badge.svg
+   :target: https://github.com/vroncevic/net_sniffer/actions?query=workflow%3A%22net_sniffer+docker+checker%22
+
+Dependencies
 -------------
 
 **net_sniffer** requires next modules and libraries:
     None
 
-SHELL TOOL STRUCTURE
+Shell tool structure
 ---------------------
 
 **net_sniffer** is based on MOP.
@@ -67,7 +79,7 @@ Code structure:
    └── log/
        └── net_sniffer.log
 
-COPYRIGHT AND LICENCE
+Copyright and licence
 ----------------------
 
 |License: GPL v3| |License: Apache 2.0|
@@ -80,7 +92,7 @@ COPYRIGHT AND LICENCE
 
 Copyright (C) 2016 by `vroncevic.github.io/net_sniffer <https://vroncevic.github.io/net_sniffer>`_
 
-This tool is free software; you can redistribute it and/or modify it
+**net_sniffer** is free software; you can redistribute it and/or modify it
 under the same terms as Bash itself, either Bash version 4.2.47 or,
 at your option, any later version of Bash 4 you may have available.
 
