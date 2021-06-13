@@ -1,7 +1,5 @@
 name: net_sniffer toc
-
 on: push
-
 jobs:
   generateTOC:
     name: TOC Generator
