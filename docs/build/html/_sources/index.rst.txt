@@ -41,11 +41,11 @@ To install **net_sniffer** type the following:
 
 .. code-block:: bash
 
-   tar xvzf net_sniffer-x.y.z.tar.gz
-   cd net_sniffer-x.y.z
-   cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.1.0/
-   cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.1.0/
-   cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.1.0/
+   tar xvzf net_sniffer-x.y.tar.gz
+   cd net_sniffer-x.y
+   cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.x.y/
+   cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.x.y/
+   cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.x.y/
 
 Or You can use Docker to create image/container.
 
@@ -70,7 +70,7 @@ Code structure:
 
 .. code-block:: bash
 
-   .
+   SH_TOOL/
    ├── bin/
    │   ├── net_dumper.sh
    │   ├── net_ipsniffer.sh

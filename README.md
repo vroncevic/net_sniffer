@@ -1,3 +1,5 @@
+<img align="right" src="https://raw.githubusercontent.com/vroncevic/net_sniffer/dev/docs/net_sniffer_logo.png" width="25%">
+
 # Cronjob for sniffer tool
 
 **net_sniffer** is shell tool for controlling/operating net sniffer.
@@ -32,11 +34,11 @@ Navigate to release **[page](https://github.com/vroncevic/net_sniffer/releases)*
 To install **net_sniffer** type the following:
 
 ```
-tar xvzf net_sniffer-x.y.z.tar.gz
-cd net_sniffer-x.y.z
-cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.1.0/
-cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.1.0/
-cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.1.0/
+tar xvzf net_sniffer-x.y.tar.gz
+cd net_sniffer-x.y
+cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.x.y/
+cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.x.y/
+cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.x.y/
 ```
 
 ![alt tag](https://raw.githubusercontent.com/vroncevic/net_sniffer/dev/docs/setup_tree.png)
@@ -49,7 +51,7 @@ Or You can use docker to create image/container.
 
 ```
 # Create symlink for shell tool
-ln -s /root/scripts/net_sniffer/ver.1.0/bin/net_sniffer.sh /root/bin/net_sniffer
+ln -s /root/scripts/net_sniffer/ver.x.y/bin/net_sniffer.sh /root/bin/net_sniffer
 
 # Setting PATH
 export PATH=${PATH}:/root/bin/
@@ -70,7 +72,7 @@ net_sniffer
 
 Code structure:
 ```
-.
+sh_tool/
 ├── bin/
 │   ├── net_dumper.sh
 │   ├── net_ipsniffer.sh
