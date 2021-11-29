@@ -16,14 +16,14 @@
 FROM debian:10
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive \
- apt-get install -yq --no-install-recommends \
- tree \
- htop \
- wget \
- unzip \
- ca-certificates \
- openssl \
- tcpdump
+    apt-get install -yq --no-install-recommends \
+    tree \
+    htop \
+    wget \
+    unzip \
+    ca-certificates \
+    openssl \
+    tcpdump
 
 RUN wget https://github.com/vroncevic/sh_util/archive/v1.0.zip
 RUN unzip v1.0.zip
@@ -36,12 +36,12 @@ RUN rm -Rf v1.0.zip sh_util-1.0
 RUN mkdir /sh_tool/
 COPY sh_tool /sh_tool/
 RUN find /sh_tool/ -name "*.editorconfig" -type f -exec rm -Rf {} \;
-RUN mkdir -p /root/scripts/net_sniffer/ver.1.0/
+RUN mkdir -p /root/scripts/net_sniffer/ver.2.0/
 RUN mkdir /root/bin/
-RUN cp -R /sh_tool/bin/   /root/scripts/net_sniffer/ver.1.0/
-RUN cp -R /sh_tool/conf/  /root/scripts/net_sniffer/ver.1.0/
-RUN cp -R /sh_tool/log/   /root/scripts/net_sniffer/ver.1.0/
+RUN cp -R /sh_tool/bin/   /root/scripts/net_sniffer/ver.2.0/
+RUN cp -R /sh_tool/conf/  /root/scripts/net_sniffer/ver.2.0/
+RUN cp -R /sh_tool/log/   /root/scripts/net_sniffer/ver.2.0/
 RUN rm -Rf /sh_tool/
-RUN chmod -R 755 /root/scripts/net_sniffer/ver.1.0/
-RUN ln -s /root/scripts/net_sniffer/ver.1.0/bin/net_sniffer.sh /root/bin/net_sniffer
-RUN tree /root/scripts/net_sniffer/ver.1.0/
+RUN chmod -R 755 /root/scripts/net_sniffer/ver.2.0/
+RUN ln -s /root/scripts/net_sniffer/ver.2.0/bin/net_sniffer.sh /root/bin/net_sniffer
+RUN tree /root/scripts/net_sniffer/ver.2.0/
