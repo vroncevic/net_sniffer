@@ -29,6 +29,8 @@ other information that should be provided before the tool is installed.
 
 ### Installation
 
+![Debian Linux OS](https://raw.githubusercontent.com/vroncevic/net_sniffer/dev/docs/debtux.png)
+
 Navigate to release **[page](https://github.com/vroncevic/net_sniffer/releases)** download and extract release archive.
 
 To install **net_sniffer** type the following
