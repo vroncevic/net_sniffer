@@ -33,11 +33,16 @@ other information that should be provided before the tool is installed.
 Installation
 -------------
 
+|Debian Linux OS|
+
+.. |Debian Linux OS| image:: https://raw.githubusercontent.com/vroncevic/net_sniffer/dev/docs/debtux.png
+   :target: https://www.debian.org
+
 Navigate to release `page`_ download and extract release archive.
 
 .. _page: https://github.com/vroncevic/net_sniffer/releases
 
-To install **net_sniffer** type the following:
+To install **net_sniffer** type the following
 
 .. code-block:: bash
 
@@ -57,7 +62,7 @@ Or You can use Docker to create image/container.
 Dependencies
 -------------
 
-**net_sniffer** requires next modules and libraries:
+**net_sniffer** requires next modules and libraries
 
 * None
 
@@ -66,11 +71,11 @@ Shell tool structure
 
 **net_sniffer** is based on MOP.
 
-Code structure:
+Shell tool structure
 
 .. code-block:: bash
 
-   SH_TOOL/
+   sh_tool/
    ├── bin/
    │   ├── net_dumper.sh
    │   ├── net_ipsniffer.sh

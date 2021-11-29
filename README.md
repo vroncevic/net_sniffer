@@ -29,9 +29,11 @@ other information that should be provided before the tool is installed.
 
 ### Installation
 
+![Debian Linux OS](https://raw.githubusercontent.com/vroncevic/net_sniffer/dev/docs/debtux.png)
+
 Navigate to release **[page](https://github.com/vroncevic/net_sniffer/releases)** download and extract release archive.
 
-To install **net_sniffer** type the following:
+To install **net_sniffer** type the following
 
 ```
 tar xvzf net_sniffer-x.y.tar.gz
@@ -41,7 +43,33 @@ cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.x.y/
 cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.x.y/
 ```
 
-![alt tag](https://raw.githubusercontent.com/vroncevic/net_sniffer/dev/docs/setup_tree.png)
+Self generated setup script and execution
+```
+./net_sniffer_setup.sh 
+
+[setup] installing App/Tool/Script net_sniffer
+	Mon 29 Nov 2021 08:26:51 AM CET
+[setup] clean up App/Tool/Script structure
+[setup] copy App/Tool/Script structure
+[setup] remove github editor configuration files
+[setup] set App/Tool/Script permission
+[setup] create symbolic link of App/Tool/Script
+[setup] done
+
+/root/scripts/net_sniffer/ver.2.0/
+├── bin/
+│   ├── net_dumper.sh
+│   ├── net_ipsniffer.sh
+│   └── net_params.sh
+├── conf/
+│   ├── net_sniffer.cfg
+│   └── net_sniffer_util.cfg
+└── log/
+    └── net_sniffer.log
+
+3 directories, 6 files
+lrwxrwxrwx 1 root root 52 Nov 29 08:26 /root/bin/net_sniffer -> /root/scripts/net_sniffer/ver.2.0/bin/net_sniffer.sh
+```
 
 Or You can use docker to create image/container.
 
@@ -62,7 +90,7 @@ net_sniffer
 
 ### Dependencies
 
-**net_sniffer** requires next modules and libraries:
+**net_sniffer** requires next modules and libraries
 
 * None
 
@@ -70,7 +98,7 @@ net_sniffer
 
 **net_sniffer** is based on MOP.
 
-Code structure:
+Shell tool structure
 ```
 sh_tool/
 ├── bin/
@@ -87,7 +115,7 @@ sh_tool/
 
 [![Documentation Status](https://readthedocs.org/projects/net_sniffer/badge/?version=latest)](https://net_sniffer.readthedocs.io/projects/net_sniffer/en/latest/?badge=latest)
 
-More documentation and info at:
+More documentation and info at
 * [https://net_sniffer.readthedocs.io/en/latest/](https://net_sniffer.readthedocs.io/en/latest/)
 * [https://www.gnu.org/software/bash/manual/](https://www.gnu.org/software/bash/manual/)
 
