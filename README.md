@@ -6,7 +6,7 @@
 
 Developed in **[bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))** code: **100%**.
 
-[![net_sniffer shell checker](https://github.com/vroncevic/net_sniffer/workflows/net_sniffer%20shell%20checker/badge.svg)](https://github.com/vroncevic/net_sniffer/actions?query=workflow%3A%22net_sniffer+shell+checker%22)
+[![net_sniffer_shell_checker](https://github.com/vroncevic/net_sniffer/actions/workflows/net_sniffer_shell_checker.yml/badge.svg)](https://github.com/vroncevic/net_sniffer/actions/workflows/net_sniffer_shell_checker.yml)
 
 The README is used to introduce the tool and provide instructions on
 how to install the tool, any machine dependencies it may have and any
@@ -73,8 +73,6 @@ lrwxrwxrwx 1 root root 52 Nov 29 08:26 /root/bin/net_sniffer -> /root/scripts/ne
 
 Or You can use docker to create image/container.
 
-[![net_sniffer docker checker](https://github.com/vroncevic/net_sniffer/workflows/net_sniffer%20docker%20checker/badge.svg)](https://github.com/vroncevic/net_sniffer/actions?query=workflow%3A%22net_sniffer+docker+checker%22)
-
 ### Usage
 
 ```
@@ -113,17 +111,17 @@ sh_tool/
 
 ### Docs
 
-[![Documentation Status](https://readthedocs.org/projects/net_sniffer/badge/?version=latest)](https://net_sniffer.readthedocs.io/projects/net_sniffer/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/net_sniffer/badge/?version=latest)](https://net-sniffer.readthedocs.io/projects/net_sniffer/en/latest/?badge=latest)
 
 More documentation and info at
-* [https://net_sniffer.readthedocs.io/en/latest/](https://net_sniffer.readthedocs.io/en/latest/)
+* [https://net_sniffer.readthedocs.io/en/latest/](https://net-sniffer.readthedocs.io/en/latest/)
 * [https://www.gnu.org/software/bash/manual/](https://www.gnu.org/software/bash/manual/)
 
 ### Copyright and licence
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Copyright (C) 2016 by [vroncevic.github.io/net_sniffer](https://vroncevic.github.io/net_sniffer)
+Copyright (C) 2016 - 2024 by [vroncevic.github.io/net_sniffer](https://vroncevic.github.io/net_sniffer)
 
 **net_sniffer** is free software; you can redistribute it and/or modify
 it under the same terms as Bash itself, either Bash version 4.2.47 or,
