@@ -1,6 +1,6 @@
-<img align="right" src="https://raw.githubusercontent.com/vroncevic/net_sniffer/dev/docs/net_sniffer_logo.png" width="25%">
-
 # Cronjob for sniffer tool
+
+<img align="right" src="https://raw.githubusercontent.com/vroncevic/net_sniffer/dev/docs/net_sniffer_logo.png" width="25%">
 
 **net_sniffer** is shell tool for controlling/operating net sniffer.
 
@@ -35,7 +35,7 @@ Navigate to release **[page](https://github.com/vroncevic/net_sniffer/releases)*
 
 To install **net_sniffer** type the following
 
-```
+```bash
 tar xvzf net_sniffer-x.y.tar.gz
 cd net_sniffer-x.y
 cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.x.y/
@@ -44,7 +44,8 @@ cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.x.y/
 ```
 
 Self generated setup script and execution
-```
+
+```bash
 ./net_sniffer_setup.sh 
 
 [setup] installing App/Tool/Script net_sniffer
@@ -75,7 +76,7 @@ Or You can use docker to create image/container.
 
 ### Usage
 
-```
+```bash
 # Create symlink for shell tool
 ln -s /root/scripts/net_sniffer/ver.x.y/bin/net_sniffer.sh /root/bin/net_sniffer
 
@@ -97,7 +98,8 @@ net_sniffer
 **net_sniffer** is based on MOP.
 
 Shell tool structure
-```
+
+```bash
 sh_tool/
 ├── bin/
 │   ├── net_dumper.sh
