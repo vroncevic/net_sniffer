@@ -46,11 +46,11 @@ To install **net_sniffer** type the following
 
 .. code-block:: bash
 
-   tar xvzf net_sniffer-x.y.tar.gz
-   cd net_sniffer-x.y
-   cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.x.y/
-   cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.x.y/
-   cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.x.y/
+   tar xvzf net_sniffer-3.0.tar.gz
+   cd net_sniffer-3.0
+   cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.3.0/
+   cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.3.0/
+   cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.3.0/
 
 Or You can use Docker to create image/container.
 
@@ -91,7 +91,7 @@ Copyright and licence
 .. |License: Apache 2.0| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
    :target: https://opensource.org/licenses/Apache-2.0
 
-Copyright (C) 2016 - 2024 by `vroncevic.github.io/net_sniffer <https://vroncevic.github.io/net_sniffer>`_
+Copyright (C) 2016 - 2026 by `vroncevic.github.io/net_sniffer <https://vroncevic.github.io/net_sniffer>`_
 
 **net_sniffer** is free software; you can redistribute it and/or modify it
 under the same terms as Bash itself, either Bash version 4.2.47 or,
