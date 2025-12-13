@@ -36,11 +36,11 @@ Navigate to release **[page](https://github.com/vroncevic/net_sniffer/releases)*
 To install **net_sniffer** type the following
 
 ```bash
-tar xvzf net_sniffer-x.y.tar.gz
-cd net_sniffer-x.y
-cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.x.y/
-cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.x.y/
-cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.x.y/
+tar xvzf net_sniffer-3.0.tar.gz
+cd net_sniffer-3.0
+cp -R ~/sh_tool/bin/   /root/scripts/net_sniffer/ver.3.0/
+cp -R ~/sh_tool/conf/  /root/scripts/net_sniffer/ver.3.0/
+cp -R ~/sh_tool/log/   /root/scripts/net_sniffer/ver.3.0/
 ```
 
 Self generated setup script and execution
@@ -49,7 +49,7 @@ Self generated setup script and execution
 ./net_sniffer_setup.sh 
 
 [setup] installing App/Tool/Script net_sniffer
-	Mon 29 Nov 2021 08:26:51 AM CET
+	Sat Dec 13 07:13:58 PM CET 2025
 [setup] clean up App/Tool/Script structure
 [setup] copy App/Tool/Script structure
 [setup] remove github editor configuration files
@@ -57,7 +57,7 @@ Self generated setup script and execution
 [setup] create symbolic link of App/Tool/Script
 [setup] done
 
-/root/scripts/net_sniffer/ver.2.0/
+/root/scripts/net_sniffer/ver.3.0/
 ├── bin/
 │   ├── net_dumper.sh
 │   ├── net_ipsniffer.sh
@@ -69,7 +69,7 @@ Self generated setup script and execution
     └── net_sniffer.log
 
 3 directories, 6 files
-lrwxrwxrwx 1 root root 52 Nov 29 08:26 /root/bin/net_sniffer -> /root/scripts/net_sniffer/ver.2.0/bin/net_sniffer.sh
+lrwxrwxrwx 1 root root 52 Dec 13 07:13 /root/bin/net_sniffer -> /root/scripts/net_sniffer/ver.3.0/bin/net_sniffer.sh
 ```
 
 Or You can use docker to create image/container.
@@ -78,7 +78,7 @@ Or You can use docker to create image/container.
 
 ```bash
 # Create symlink for shell tool
-ln -s /root/scripts/net_sniffer/ver.x.y/bin/net_sniffer.sh /root/bin/net_sniffer
+ln -s /root/scripts/net_sniffer/ver.3.0/bin/net_sniffer.sh /root/bin/net_sniffer
 
 # Setting PATH
 export PATH=${PATH}:/root/bin/
@@ -123,7 +123,7 @@ More documentation and info at
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Copyright (C) 2016 - 2024 by [vroncevic.github.io/net_sniffer](https://vroncevic.github.io/net_sniffer)
+Copyright (C) 2016 - 2026 by [vroncevic.github.io/net_sniffer](https://vroncevic.github.io/net_sniffer)
 
 **net_sniffer** is free software; you can redistribute it and/or modify
 it under the same terms as Bash itself, either Bash version 4.2.47 or,
